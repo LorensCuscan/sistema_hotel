@@ -3,7 +3,7 @@
 
 require __DIR__ . "/vendor/autoload.php";
 
-define("URL_BASE", "http://www.localhost/Rotas");
+require __DIR__ . "/Config.php";
 
 use CoffeeCode\Router\Router;
 
