@@ -1,14 +1,11 @@
 <?php
 
-
 require __DIR__ . "/vendor/autoload.php";
-
 require __DIR__ . "/Config.php";
 
 use CoffeeCode\Router\Router;
 
 $router = new Router(URL_BASE);
-
 
 $router->get("/", function ($data){
     echo "<h1> ola mundo</h1>";
