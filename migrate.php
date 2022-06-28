@@ -26,12 +26,5 @@ $capsule->setAsGlobal();
 // Setup the Eloquent ORM... (optional; unless you've used setEventDispatcher()) 
  $capsule->bootEloquent();
 
- Capsule::schema()->create('users', function ($table)
- { 
-    $table->increments('id'); 
-    $table->string('name');
-    $table->string('email')->unique(); 
-    $table->string('password');
-    $table->timestamps(); 
- });
+
 

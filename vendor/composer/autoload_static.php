@@ -62,11 +62,16 @@ class ComposerStaticInit4acafa707557d96b45a705caf21ab2fb
         'D' => 
         array (
             'Doctrine\\Inflector\\' => 19,
+            'Database\\' => 9,
         ),
         'C' => 
         array (
             'CoffeeCode\\Router\\' => 18,
             'Carbon\\' => 7,
+        ),
+        'A' => 
+        array (
+            'App\\' => 4,
         ),
     );
 
@@ -165,6 +170,10 @@ class ComposerStaticInit4acafa707557d96b45a705caf21ab2fb
         array (
             0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
         ),
+        'Database\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/database',
+        ),
         'CoffeeCode\\Router\\' => 
         array (
             0 => __DIR__ . '/..' . '/coffeecode/router/src',
@@ -172,6 +181,10 @@ class ComposerStaticInit4acafa707557d96b45a705caf21ab2fb
         'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
+        ),
+        'App\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
