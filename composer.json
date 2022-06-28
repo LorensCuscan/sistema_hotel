@@ -3,7 +3,9 @@
     "type": "llibrary",
     "autoload": {
         "psr-4": {
-            "Lorens\\Rotas\\": "src/"
+            "Lorens\\Rotas\\": "src/",
+            "App\\": "app/",
+            "Database\\": "database/"
         }
     },
     "authors": [
@@ -13,6 +15,8 @@
         }
     ],
     "require": {
-        "coffeecode/router": "^1.0"
+        "coffeecode/router": "^1.0",
+        "illuminate/database": "^8.83",
+        "illuminate/events": "^8.83"
     }
 }
