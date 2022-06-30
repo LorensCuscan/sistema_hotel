@@ -10,13 +10,7 @@ $router = new Router(URL_BASE);
 $router->namespace("App\Controller");
 $router->group(null);
 
-$router->get("/", function ($data){
-    echo "<h1> ola mundo</h1>";
-});
-
-$router->get("/site", "UserController:index");
- 
-
+require_once __DIR__ . "/routes.php";
 
 $router->dispatch();
 

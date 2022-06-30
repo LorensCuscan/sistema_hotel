@@ -10,8 +10,12 @@
     },
     "authors": [
         {
-            "name": "LorensCuscan",
+            "name": "Lorens Cuscan",
             "email": "lorenscuscan@gmail.com"
+        },
+        {
+            "name": "Lucas Castellani",
+            "email": "lucasdesouzacastellani@gmail.com"
         }
     ],
     "require": {

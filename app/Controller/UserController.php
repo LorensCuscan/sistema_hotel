@@ -4,15 +4,13 @@ namespace App\Controller;
 
 use App\Model\User;
 
-class UserController
+class UserController extends Controller
 {
     public function index()
     {
-        $user = User::create([
-            'name'     => 'lorens',
-            'password' => '123456',
-            'email'    => 'cuscan@gmail.com',
-        ]);
-        var_dump($user);
+       
+        $testandosom = 2134;
+
+        return $this->view('index', compact('testandosom'));
     }
 }
