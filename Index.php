@@ -10,7 +10,7 @@ $router = new Router(URL_BASE);
 $router->namespace("App\Controller");
 $router->group(null);
 
-include_once __DIR__ . "/routes.php";
+require_once __DIR__ . "/routes.php";
 
 $router->dispatch();
 
