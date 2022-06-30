@@ -12,5 +12,8 @@
 </head>
 <body>
     <?php $this->view('components/header'); ?>
+    
+    //carousel aqui
+
 </body>
 </html>
