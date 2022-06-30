@@ -2,15 +2,15 @@
 
 namespace App\Controller;
 
-use App\Controller\Controller;
 use App\Model\User;
 
 class UserController extends Controller
 {
     public function index()
     {
-       $teste = 'olamundo';
+       
+        $testandosom = 2134;
 
-        return $this->view('index');
+        return $this->view('index', compact('testandosom'));
     }
 }
