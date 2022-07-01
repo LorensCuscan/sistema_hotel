@@ -11,6 +11,6 @@ class UserController extends Controller
        
         $testandosom = 2134;
 
-        return $this->view('index', compact('testandosom'));
+        return view('index', compact('testandosom'));
     }
 }
