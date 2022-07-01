@@ -4,8 +4,18 @@ namespace App\Controller;
 
 class AdminController extends Controller
 {
+    public function __construct()
+    {
+        
+    }
+
     public function index()
     {
-        return view('site/index');
+        return view('admin/login');
+    }
+
+    public function login()
+    {
+        return view('admin/login');
     }
 }
