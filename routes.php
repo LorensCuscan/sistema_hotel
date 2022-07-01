@@ -5,7 +5,7 @@ $router->group(null);
 $router->get("/", "HomeController:index");
 
 // Grupo de rotas /admin
-$router->group("/admin");
+$router->group("/admin", \App\Middleware\Admin::class);
 $router->get("/", "AdminController:login");
 $router->get("/login", "AdminController:index");
 
