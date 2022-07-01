@@ -9,21 +9,21 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active ">
-      <img src="https://www.carpemundi.com.br/wp-content/uploads/2020/09/hoteis-perto-de-sao-paulo-para-o-final-de-semana.jpg" class="d-block mh-75 h-75" alt="...">
+      <img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2018/10/19/1052/Grand-Hyatt-Sao-Paulo-P843-Grand-Twin-Bed-Room.jpg/Grand-Hyatt-Sao-Paulo-P843-Grand-Twin-Bed-Room.16x9.jpg?imwidth=1280" style="width:100vw; max-height:90vh;" class="d-block mh-75 h-75" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="..." class="d-block " alt="...">
+      <img src="https://www.oitihotel.com.br/wp-content/uploads/2021/10/04.jpeg" style="width:100vw; max-height:90vh;" class="d-block " alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="https://pizarromoveis.com.br/wp-content/uploads/2019/08/quartos-de-hotel-feitos-com-moveis-planejados-1280x720.png" class="d-block" alt="...">
+      <img src="https://pizarromoveis.com.br/wp-content/uploads/2019/08/quartos-de-hotel-feitos-com-moveis-planejados-1280x720.png"  style="width:100vw; max-height:90vh;" class=" d-block" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
