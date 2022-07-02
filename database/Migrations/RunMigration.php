@@ -8,7 +8,6 @@ class RunMigration extends Migration
 {
     public function __construct($capsule)
     {
-        $userMigration = new UserMigration($capsule);
-
+        //$userMigration = new UserMigration($capsule);
     }
 }

@@ -18,6 +18,5 @@ class UserMigration extends RunMigration
             $table->boolean('admin');
             $table->timestamps(); 
         });
-
     }
 }

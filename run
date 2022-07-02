@@ -1,12 +1,10 @@
 #!/usr/bin/php
 <?php
 
-use Database\Migrations\RunMigration;
-
-switch ($argv[1
-]) {
+switch ($argv[1]) {
     case "migrations":
         RunMigrations();
+        break;
     default:
         echo "Comando não encontrado, verifique os comandos disponíveis em cli.php";
 }
@@ -17,13 +15,12 @@ function RunMigrations($files = [])
     require __DIR__ . "/config.php";
     require __DIR__ . "/config/Database.php";
     $contents = scandir('database/migrations');
+    var_dump($contents);
     foreach($contents as $content) {
         if(strlen($content) > 3) {
-            include __DIR__ . "/database/Migrations/{$content}";
             $content = str_replace('.php', '', $content);
             $result = "Database\\Migrations\\".$content;
             new $result($capsule);
-            die;
         }
     }
 }
