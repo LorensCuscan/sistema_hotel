@@ -13,3 +13,4 @@ require __DIR__ . "/config/Database.php";
 
 // Arquivo de rotas
 require __DIR__ . "/routes.php";
+

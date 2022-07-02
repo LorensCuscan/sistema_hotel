@@ -41,3 +41,5 @@
 
 <?= view('components/footer'); ?>
 
+dump($users);
+
