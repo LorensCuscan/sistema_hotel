@@ -1,5 +1,11 @@
 <?php
 
+use CoffeeCode\Router\Router;
+
+$router = new Router(URL_BASE);
+$router->namespace("App\Controller");
+
+
 // Arquivo de rotas
 $router->group(null);
 $router->get("/", "HomeController:index", "index");

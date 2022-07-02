@@ -7,8 +7,9 @@ use Illuminate\Database\Migrations\Migration;
 
 class RunMigration extends Migration
 {
-    public function __construct(Capsule $capsule)
+    public function __construct($capsule)
     {
         $userMigration = new UserMigration($capsule);
+
     }
 }

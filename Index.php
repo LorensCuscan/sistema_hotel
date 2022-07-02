@@ -1,13 +1,15 @@
 <?php
 
 require __DIR__ . "/vendor/autoload.php";
+
+// Arquivo de constantes para sabermos os dados do projeto
 require __DIR__ . "/config.php";
-require __DIR__ . "/database.php";
-require __DIR__ . "/helpers.php";
 
-use CoffeeCode\Router\Router;
+// Arquivo com funções que podem nos ajudar durante o desenvolvimento
+require __DIR__ . "/config/Helpers.php";
 
-$router = new Router(URL_BASE);
-$router->namespace("App\Controller");
+// Arquivo que faz a conexão com o banco de dados
+require __DIR__ . "/config/Database.php";
 
-require_once __DIR__ . "/routes.php";
+// Arquivo de rotas
+require __DIR__ . "/routes.php";
