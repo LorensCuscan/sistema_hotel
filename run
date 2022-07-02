@@ -1,0 +1,29 @@
+#!/usr/bin/php
+<?php
+
+switch ($argv[1
+]) {
+    case "migrations":
+        require __DIR__ . "/vendor/autoload.php";
+        require __DIR__ . "/config.php";
+        require __DIR__ . "/config/Database.php";
+        $contents = scandir('database/migrations');
+        foreach($contents as $content) {
+            if(strlen($content) > 3) {
+                include __DIR__ . "/database/Migrations/{$content}";
+                $content = str_replace('.php', '', $content);
+                $result = "Database\\Migrations\\".$content;
+                new $result($capsule);
+                die;
+            }
+        }
+    default:
+        echo "Comando não encontrado, verifique os comandos disponíveis em cli.php";
+}
+
+function RunMigrations($files = [])
+{
+    
+
+    
+}
