@@ -2,7 +2,7 @@
 
 // constantes do projeto
 const APP_NAME = "sistema_hotel";
-const URL_BASE = "http://www.localhost/Rotas";
+const URL_BASE = "http://www.localhost/sistema_hotel";
 
 // constantes do banco
 const DB_DRIVER = "mysql";

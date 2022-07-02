@@ -6,8 +6,8 @@ use CoffeeCode\Router\Router;
 
 class Admin 
 {
-    public function handle(Router $router): bool
+    public function handle(Router $router)
     {
-        return false;
+        return $router->redirect("login");
     }
 }

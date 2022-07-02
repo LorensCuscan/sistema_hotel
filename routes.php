@@ -2,12 +2,14 @@
 
 // Arquivo de rotas
 $router->group(null);
-$router->get("/", "HomeController:index");
+$router->get("/", "HomeController:index", "index");
+$router->get("/login", "AdminController:index", "login");
+
 
 // Grupo de rotas /admin
 $router->group("/admin", \App\Middleware\Admin::class);
-$router->get("/", "AdminController:login");
-$router->get("/login", "AdminController:index");
+$router->get("/", "AdminController:login", "painel");
+
 
 // Executa as rotas
 $router->dispatch();
