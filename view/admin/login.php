@@ -5,7 +5,8 @@
 <div class="container-fluid">
     <div class="row justify-content-center ">
         <div class="col-10 col-sm-8 col-md-6 col-lg-4  bg-dark p-5 rounded mt-5">
-            <h1 class="text-center text-light mb-5">Login</h1>
+            <h1 class="text-center text-light">Login</h1>
+            <p class="text-center text-light mb-4">Sistema de gerenciamento</p>
 
             <div class="form-group">
                 <label class="text-light" style="padding-right:5.2px">Email: </label>
