@@ -27,18 +27,17 @@
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Acões
+              Ações
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Sobre nós</a></li>
-              <li><a class="dropdown-item" href="#">Flae conosco</a></li>
-              <li><hr class="dropdown-divider"/></li>
+              <li><a class="dropdown-item" href="#">Fale conosco</a></li>
             </ul>
           </li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
       </div>
     </div>
