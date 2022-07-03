@@ -56,6 +56,7 @@
 <br>
 <br>
 
+
 <h6 style="color:#878787; padding:px; text-align:center; font-size:12px; line-height:12px; letter-spacing: 2px; font-weight:darker;" class="nd_options_second_font ">ATRIUM HOTEL</h6>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
