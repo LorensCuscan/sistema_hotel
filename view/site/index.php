@@ -102,6 +102,45 @@
 
 <h6 style="color:#878787; padding:px; text-align:center; font-size:12px; line-height:12px; letter-spacing: 2px; font-weight:lighter;" class="nd_options_second_font ">ATRIUM HOTEL</h6>
 
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button fst-italic" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Bistrô.
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Culinaria refinada.</strong> venha aproveitar todo sabor que nossa cozinha internacional tem para te oferecer.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+       Spa.
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Venha ter momentos tranquilos.</strong> Imagine um Spa completo e uma equipe preparada para te proporcionar a alta qualidade de momentos que voce merece!
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       Conforto.
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>O hotel Atrium conta com cada pedaço desenhado para a sua maior comodidade.</strong> Desde piscinas e hidromassagem até lareiras quentinhas para curtir bons momentos.
+      </div>
+    </div>
+  </div>
+</div>
+
 <hr class="my-4">
 <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-6 px-0">
