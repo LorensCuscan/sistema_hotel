@@ -19,7 +19,7 @@
             </div>
 
             <div class="justify-content-center text-center mt-2">
-                <button type="button" class="btn btn-light w-75  my-2">Login</button>
+                <button type="button" class="btn btn-light w-100  my-2">Login</button>
             </div>
 
             <div class="row">
