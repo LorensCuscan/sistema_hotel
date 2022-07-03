@@ -54,7 +54,6 @@
 <br>
 <br>
 
-
 <h6 style="color:#878787;text-align:center; font-size:12px; line-height:12px; letter-spacing: 2px; font-weight:darker;" class="nd_options_second_font ">ATRIUM HOTEL</h6>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -110,7 +109,9 @@
     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
   </div>
 </div>
+
 <br>
+
 <div class="container-fluid">
   <h2>Dúvidas frequentes:</h2>
   <div class="accordion" id="accordionExample">
@@ -166,6 +167,4 @@
   </div>
 </div>
             
-
-
 <?= view('components/footer'); ?>
