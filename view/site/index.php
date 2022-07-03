@@ -64,7 +64,7 @@
       <div class="card h-25">
         <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-01-1.jpg" class="card-img-top" alt="...">
         <div class="card-body mb-3">
-          <h5 class="card-title fst-italic">Tranquilidade</h5>
+          <h5 class="card-title fw-bold">Tranquilidade</h5>
           <p class="card-text fst-italic">Uma experiencia única</p>
         </div>
           <div class="card-footer">
@@ -76,7 +76,7 @@
   <div class="card h-100">
     <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-02.jpg" class="card-img-top" alt="...">
       <div class="card-body card text-bg-dark  mb-3">
-        <h5 class="card-title fst-italic">O bistrô Atrium</h5>
+        <h5 class="card-title fw-bold">O bistrô Atrium</h5>
           <p class="card-text fst-italic">Desfrute de todo sabor da nossa culinaria </p>
       </div>
         <div class="card-footer">
@@ -88,7 +88,7 @@
     <div class="card h-25">
       <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/hero-03.jpg" class="card-img-top" alt="...">
       <div class="card-body card text-bg-success mb-3">
-        <h5 class="card-title fst-italic">Todo conforto</h5>
+        <h5 class="card-title fw-bold">Todo conforto</h5>
         <p class="card-text fst-italic">que voce precisar em qualquer lugar</p>
       </div>
       <div class="card-footer">
@@ -105,7 +105,7 @@
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button fst-italic" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         Bistrô.
       </button>
     </h2>
@@ -117,7 +117,7 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
        Spa.
       </button>
     </h2>
@@ -129,7 +129,7 @@
   </div>
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+      <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
        Conforto.
       </button>
     </h2>
@@ -144,10 +144,10 @@
 <hr class="my-4">
 <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
         <div class="col-md-6 px-0">
-          <h1 class="display-4 font-italic">Duvidas</h1>
-          <p class="lead my-3">Perguntas frequentes</p>
-          <p class="lead my-3">Trabalhe conosco</p>
-          <p class="lead my-3">Localização</p>
+          <h1 class="display-4">Duvidas</h1>
+          <p class="lead my-3">Perguntas frequentes.</p>
+          <p class="lead my-3">Trabalhe conosco.</p>
+          <p class="lead my-3">Localização.</p>
         </div>
       </div>
             
