@@ -52,11 +52,14 @@
   <span class="carousel-control-next-icon" aria-hidden="true"></span>
   <span class="visually-hidden">Next</span>
 </button>
+
 <br>
 <br>
 
+<h6 style="color:#878787; padding:px; text-align:center; font-size:12px; line-height:12px; letter-spacing: 2px; font-weight:darker;" class="nd_options_second_font ">ATRIUM HOTEL</h6>
+
 <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col-6 align-self-center">
+    <div class="align-self-center">
       <div class="card h-25">
         <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-01-1.jpg" class="card-img-top" alt="...">
         <div class="card-body mb-3">
@@ -73,14 +76,14 @@
     <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-02.jpg" class="card-img-top" alt="...">
       <div class="card-body card text-bg-dark  mb-3">
         <h5 class="card-title fst-italic">O bistrô Atrium</h5>
-          <p class="card-text fst-italic">Desfrute de todo sabor </p>
+          <p class="card-text fst-italic">Desfrute de todo sabor da nossa culinaria </p>
       </div>
         <div class="card-footer">
       </div>
     </div>
   </div>
   
-  <div class="col-6 align-self-center">
+  <div class="align-self-center">
     <div class="card h-25">
       <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/hero-03.jpg" class="card-img-top" alt="...">
       <div class="card-body card text-bg-success mb-3">
@@ -92,7 +95,21 @@
     </div>
   </div>
 </div>
-              
+
+<br>
+<br>
+
+<h6 style="color:#878787; padding:px; text-align:center; font-size:12px; line-height:12px; letter-spacing: 2px; font-weight:lighter;" class="nd_options_second_font ">ATRIUM HOTEL</h6>
+
+<hr class="my-4">
+<div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
+        <div class="col-md-6 px-0">
+          <h1 class="display-4 font-italic">Duvidas</h1>
+          <p class="lead my-3">Perguntas frequentes</p>
+          <p class="lead my-3">Trabalhe conosco</p>
+          <p class="lead my-3">Localização</p>
+        </div>
+      </div>
             
 
 
