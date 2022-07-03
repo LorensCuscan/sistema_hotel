@@ -159,7 +159,7 @@
 <hr class="my-4">
 <div class="jumbotron p-3 p-md-5 text-white rounded bg-dark">
   <div class="col-md-6 px-0">
-    <h1 class="display-4" style="padding: 0; m">Duvidas</h1>
+    <h1 class="display-4" style="padding: 0;">Duvidas</h1>
     <p class="lead my-3">Perguntas frequentes.</p>
     <p class="lead my-3">Trabalhe conosco.</p>
     <p class="lead my-3">Localização.</p>
@@ -169,6 +169,3 @@
 
 
 <?= view('components/footer'); ?>
-
-
-
