@@ -72,7 +72,7 @@
       <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-02.jpg" class="card-img-top" alt="...">
       <div class="card-body mb-3 bg-dark text-light">
         <h5 class="card-title fw-bold text-center">O bistrô Atrium</h5>
-          <p class="card-text fst-italic">Desfrute de todo sabor da nossa culinaria </p>
+          <p class="card-text fst-italic text-center">Desfrute de todo sabor da nossa culinaria </p>
       </div>
     </div>
   </div>
@@ -82,7 +82,7 @@
       <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/hero-03.jpg" class="card-img-top" alt="...">
       <div class="card-body mb-3  bg-dark text-light">
         <h5 class="card-title fw-bold text-center">Todo conforto</h5>
-        <p class="card-text fst-italic text-center">O que voce precisar em qualquer lugar</p>
+        <p class="card-text fst-italic text-center">Tudo que precisar em qualquer momento</p>
       </div>
     </div>
   </div>
