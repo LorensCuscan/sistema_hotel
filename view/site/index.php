@@ -56,7 +56,7 @@
 <br>
 
 <div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="col">
+    <div class="col-6 align-self-center">
       <div class="card h-25">
         <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-01-1.jpg" class="card-img-top" alt="...">
         <div class="card-body mb-3">
@@ -80,7 +80,7 @@
     </div>
   </div>
   
-  <div class="col">
+  <div class="col-6 align-self-center">
     <div class="card h-25">
       <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/hero-03.jpg" class="card-img-top" alt="...">
       <div class="card-body card text-bg-success mb-3">
