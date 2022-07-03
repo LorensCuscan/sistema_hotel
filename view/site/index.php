@@ -1,11 +1,10 @@
 <?= view('components/header'); ?>
 
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+<div id="carouselExampleCaptions" class="carousel slide border border-dark" data-bs-ride="false">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-
 
   </div>
   <div class="carousel-inner">
@@ -50,6 +49,7 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
+
 </div>
 
 <br>
@@ -57,37 +57,38 @@
 
 <h6 style="color:#878787;text-align:center; font-size:12px; line-height:12px; letter-spacing: 2px; font-weight:darker;" class="nd_options_second_font ">ATRIUM HOTEL</h6>
 
-<div class="row row-cols-1 row-cols-md-3 g-4">
-    <div class="align-self-center">
-      <div class="card h-25 bg-dark text-light  text-center">
-        <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-01-1.jpg" class="card-img-top" alt="...">
-        <div class="card-body mb-3">
-          <h5 class="card-title fw-bold">Tranquilidade</h5>
-          <p class="card-text fst-italic">Uma experiencia única</p>
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="align-self-center">
+        <div class="card h-25 bg-dark text-light  text-center">
+          <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-01-1.jpg" class="card-img-top" alt="...">
+          <div class="card-body mb-3">
+            <h5 class="card-title fw-bold">Tranquilidade</h5>
+            <p class="card-text fst-italic">Uma experiencia única</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 bg-dark">
+        <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-02.jpg" class="card-img-top" alt="...">
+        <div class="card-body mb-3 bg-dark text-light">
+          <h5 class="card-title fw-bold text-center">O bistrô Atrium</h5>
+            <p class="card-text fst-italic text-center">Desfrute de todo sabor da nossa culinaria </p>
         </div>
       </div>
     </div>
-
-    <div class="col">
-      <div class="card h-100 bg-dark">
-      <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/Hero-02.jpg" class="card-img-top" alt="...">
-      <div class="card-body mb-3 bg-dark text-light">
-        <h5 class="card-title fw-bold text-center">O bistrô Atrium</h5>
-          <p class="card-text fst-italic text-center">Desfrute de todo sabor da nossa culinaria </p>
+    
+    <div class="align-self-center">
+      <div class="card h-25 bg-dark">
+        <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/hero-03.jpg" class="card-img-top" alt="...">
+        <div class="card-body mb-3  bg-dark text-light">
+          <h5 class="card-title fw-bold text-center">Todo conforto</h5>
+          <p class="card-text fst-italic text-center">Tudo que precisar em qualquer momento</p>
+        </div>
       </div>
     </div>
   </div>
-  
-  <div class="align-self-center">
-    <div class="card h-25 bg-dark">
-      <img src="https://hoteldom.com.br/wp-content/uploads/2021/08/hero-03.jpg" class="card-img-top" alt="...">
-      <div class="card-body mb-3  bg-dark text-light">
-        <h5 class="card-title fw-bold text-center">Todo conforto</h5>
-        <p class="card-text fst-italic text-center">Tudo que precisar em qualquer momento</p>
-      </div>
-    </div>
-  </div>
-
 </div>
 
 <br>

@@ -10,7 +10,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </head>
-<body>
+<body style="background-color: #dadada;">
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand fst-italic" href="#"><i>Atrium</i><b>Hotel</b></a>
