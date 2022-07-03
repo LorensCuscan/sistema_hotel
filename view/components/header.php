@@ -30,15 +30,15 @@
               Reserva
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item font-weight-bold" href="#">Acomodações</a></li>
-              <li><a class="dropdown-item font-weight-bold" href="#">Spa</a></li>
+              <li><a class="dropdown-item" href="#">Acomodações</a></li>
+              <li><a class="dropdown-item" href="#">Spa</a></li>
               <li><hr class="dropdown-divider"/></li>
               <li><a class="dropdown-item font-weight-bold" href="#">Bistrô</a></li>
             </ul>
             </li>
         </ul>
         <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+          <input class="form-control me-2" type="search" placeholder="Pesquise..." aria-label="Search">
           <button class="btn btn-outline-light" type="submit">Buscar</button>
         </form>
       </div>
