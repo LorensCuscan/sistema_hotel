@@ -94,8 +94,6 @@
 <br>
 <br>
 
-<!-- <h6 style="color:#878787; text-align:center; font-size:12px; line-height:12px; letter-spacing: 2px; font-weight:lighter;" class="nd_options_second_font ">ATRIUM HOTEL</h6> -->
-
 <div class="container w-50">
   <h2 class="text-center">Entre em contato:</h2>
   <div class="mb-3">

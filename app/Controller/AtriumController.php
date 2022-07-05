@@ -2,6 +2,7 @@
 
 namespace App\Controller;
 
+// Classe para gerenciar os comandos CLI (de terminal)
 class AtriumController
 {
     private $argv;

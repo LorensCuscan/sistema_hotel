@@ -1,5 +1,6 @@
 <?php
 
+// Função para retornar view
 if(!function_exists('view')){
     function view($view, $variable = false)
     {
@@ -15,3 +16,4 @@ if(!function_exists('view')){
         return false;
     }
 }
+
