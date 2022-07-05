@@ -1,0 +1,11 @@
+#!/usr/bin/php
+<?php
+
+// comandos disponíveis:
+//
+// php atrium create-tables 
+// - Roda todas as migrations
+
+require __DIR__ . "/vendor/autoload.php";
+$atrium = new App\Controller\AtriumController($argv);
+die;
