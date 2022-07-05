@@ -2,18 +2,25 @@
 
 namespace App\Controller;
 
-use Exception;
-
 class AtriumController
 {
     private $argv;
     private $functionName;
 
+    /*
+     * Pega o comando inserido no array argv
+     *  e verifica se existe uma função para ele
+    */
     public function __construct($argv)
     {
-        $this->argv         = $argv;
+        $this->argv = $argv;
         $this->functionName = lcfirst(str_replace('-', '', ucwords($argv[1], '-')));
-        call_user_func(__CLASS__ . "::" . $this->functionName);
+
+        if(method_exists(__CLASS__, $this->functionName)){
+            return call_user_func(__CLASS__ . "::" . $this->functionName);
+        };
+
+        echo 'Comando não encontrado, verifique a lista de comandos em Atrium.';
     }
 
     /*
@@ -22,18 +29,14 @@ class AtriumController
     */
     public static function createTables()
     {
-        try{
-            require __DIR__ . "/../../config/database.php";
-            $contents = scandir('database/migrations');
-            foreach($contents as $content) {
-                if(strlen($content) > 3) {
-                    $content = str_replace('.php', '', $content);
-                    $result = "Database\\Migrations\\".$content;
-                    new $result($capsule);
-                }
+        require __DIR__ . "/../../config/database.php";
+        $filesFound = scandir('database/migrations');
+        foreach($filesFound as $fileFound) {
+            if(strlen($fileFound) > 3) {
+                $className = str_replace('.php', '', $fileFound);
+                $result = "Database\\Migrations\\".$className;
+                new $result($capsule);
             }
-        } catch(Exception $e) {
-            echo 'Erro: ',  $e->getMessage(), "\n";
         }
     }
 }
