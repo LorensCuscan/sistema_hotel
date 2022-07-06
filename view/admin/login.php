@@ -31,9 +31,10 @@
                     <a>Criar conta</a>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
+
+
 
 <?= view('components/footer'); ?>
