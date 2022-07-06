@@ -12,7 +12,7 @@ class UserMigration extends RunMigration
         $capsule::schema()->create('users', function ($table)
         { 
             $table->increments('id'); 
-            $table->string('nome', 100);
+            $table->string('name', 100);
             $table->string('email')->unique(); 
             $table->string('password', 100);
             $table->boolean('admin');

@@ -2,6 +2,8 @@
 
 namespace App\Controller;
 
+use App\Model\User;
+
 // Classe para gerenciar os comandos CLI (de terminal)
 class AtriumController
 {
@@ -40,5 +42,17 @@ class AtriumController
             }
         }
         echo "Tabelas criadas com sucesso";
+    }
+
+    public static function addUser()
+    {
+        require __DIR__ . "/../../config/database.php";
+        User::create([
+            'name'     => 'Lorens Cuscan',
+            'email'    => 'lorenscuscan@gmail.com',
+            'password' => '12345678',
+            'admin'    => 1
+        ]);
+        echo "Usuario Criado com Sucesso\n";
     }
 }
