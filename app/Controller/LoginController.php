@@ -13,6 +13,7 @@ class LoginController
 
         if(!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             echo("{$email} não é um email valido!");
+            exit;
         }
 
         $user = User::query()
