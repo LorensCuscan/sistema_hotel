@@ -2,7 +2,6 @@
 
 namespace App\Controller;
 
-use App\Model\User;
 
 // Classe para gerenciar os comandos CLI (de terminal)
 class AtriumController
@@ -44,15 +43,32 @@ class AtriumController
         echo "Tabelas criadas com sucesso";
     }
 
+    /*
+     * Cria usuários na tabela users
+    */
     public static function addUser()
     {
         require __DIR__ . "/../../config/database.php";
-        User::create([
-            'name'     => 'Lorens Cuscan',
-            'email'    => 'lorenscuscan@gmail.com',
-            'password' => '12345678',
-            'admin'    => 1
-        ]);
-        echo "Usuario Criado com Sucesso\n";
+        try{
+
+            \App\Model\User::query()->updateOrcreate(
+                ['email'    => 'lorenscuscan@gmail.com'],[
+                'name'     => 'Lorens Cuscan',
+                'password' => '12345678',
+                'admin'    => 1
+            ]); 
+            echo "\nLorens Cuscan Adicionado Com Sucesso.\n";
+
+            \App\Model\User::query()->updateOrcreate(
+                ['email'    => 'lucascastellani@gmail.com'],[
+                'name'     => 'Lucas Castellani',
+                'password' => '12345678',
+                'admin'    => 1
+            ]);
+            echo "Lucas Castellani Adicionado com sucesso.\n";
+
+        } catch(\Illuminate\Database\QueryException $e) {
+            echo dd("\nErro => ".$e->getMessage()."\\n");
+        }
     }
 }
