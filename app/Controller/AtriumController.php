@@ -39,5 +39,6 @@ class AtriumController
                 new $result($capsule);
             }
         }
+        echo "Tabelas criadas com sucesso";
     }
 }
