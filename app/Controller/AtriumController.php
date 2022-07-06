@@ -46,7 +46,7 @@ class AtriumController
     /*
      * Cria usuários na tabela users
     */
-    public static function addUser()
+    public static function addUsers()
     {
         require __DIR__ . "/../../config/database.php";
         try{
