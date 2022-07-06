@@ -47,8 +47,8 @@
                 email: email,
                 password: password
             },
-            success: function (){
-                console.log("deu certo")
+            success: function (res){
+                alert(res)
             }
         })
     })
