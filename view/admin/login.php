@@ -10,16 +10,16 @@
 
             <div class="form-group">
                 <label class="text-light" style="padding-right:5.2px">Email: </label>
-                <input type="text" class="w-75"/>
+                <input id="email" type="text" class="w-75"/>
             </div>
 
             <div class="form-group mt-2">
                 <label class="text-light">Senha: </label>
-                <input type="password" class="w-75"/>
+                <input id="password" type="password" class="w-75"/>
             </div>
 
             <div class="justify-content-center text-center mt-2">
-                <button type="button" class="btn btn-light w-100  my-2">Login</button>
+                <button id="login" type="button" class="btn btn-light w-100  my-2">Login</button>
             </div>
 
             <div class="row">
@@ -35,6 +35,23 @@
     </div>
 </div>
 
-
+<script>
+    $('#login').on('click', function(){
+        var email = $('#email').val()
+        var password = $('#password').val()
+        $.ajax({
+            url: "login", 
+            dataType: "json",
+            type: "POST",
+            data: {
+                email: email,
+                password: password
+            },
+            success: function (){
+                console.log("deu certo")
+            }
+        })
+    })
+</script>
 
 <?= view('components/footer'); ?>

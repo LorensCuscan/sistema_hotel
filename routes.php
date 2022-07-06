@@ -10,6 +10,7 @@ $router->namespace("App\Controller");
 $router->group(null);
 $router->get("/", "HomeController:index", "index");
 $router->get("/login", "AdminController:index", "login");
+$router->post("/login", "LoginController:login");
 
 // Grupo de rotas /admin
 $router->group("/admin", \App\Middleware\Admin::class);
