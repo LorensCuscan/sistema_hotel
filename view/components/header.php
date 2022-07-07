@@ -21,29 +21,28 @@
           <span class="navbar-toggler-icon"></span>
         </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active fst-italic" aria-current="page" href="/sistema_hotel/">Home</a>
             </li>
-             <li class="nav-item">
-              <a class="nav-link fst-italic" href="admin">login</a>
+            <li class="nav-item">
+              <a class="nav-link active fst-italic" aria-current="page" href="/sistema_hotel/">Quartos</a>
             </li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle fst-italic" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Reserva
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Acomodações</a></li>
-              <li><a class="dropdown-item" href="#">Spa</a></li>
-              <li><hr class="dropdown-divider"/></li>
-              <li><a class="dropdown-item font-weight-bold" href="#">Bistrô</a></li>
-            </ul>
+              <a class="nav-link active dropdown-toggle fst-italic" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Saiba mais
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Acomodações</a></li>
+                <li><a class="dropdown-item" href="#">Spa</a></li>
+                <li><hr class="dropdown-divider"/></li>
+                <li><a class="dropdown-item font-weight-bold" href="#">Bistrô</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active fst-italic" href="login">login</a>
             </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Pesquise..." aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Buscar</button>
-        </form>
       </div>
     </div>
   </nav>
