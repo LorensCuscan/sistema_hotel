@@ -3,6 +3,7 @@
 namespace App\Controller;
 
 use App\Model\User;
+use Illuminate\Support\Facades\Route;
 
 class LoginController extends Controller
 {
@@ -30,17 +31,27 @@ class LoginController extends Controller
           ->first()
           ->toArray();
 
+        // Se a buscar não encontrar nada, retorna erro
         if(empty($user)){
             echo json_encode("Email/Senha não encontrados, verifique suas credenciais.");
             exit;
         }
        
+        // Caso passe por todas as verificações, atribuímos
+        // os dados do usuário na superglobal $_session
         $_SESSION['name']  = $user['name'];
         $_SESSION['email'] = $user['email'];
         $_SESSION['admin'] = $user['admin'];
         $_SESSION['id']    = session_id();
 
-        echo json_encode("Usuário Logado!");
+        // retorna uma string success para o ajax
+        echo json_encode("success");
         exit;
+    }
+
+    public function logout()
+    {
+        session_destroy();
+        return Route::redirect('/');
     }
 }

@@ -15,8 +15,7 @@ $router->post("/login", "LoginController:login");
 
 // Grupo de rotas /admin
 $router->group("/admin", \App\Middleware\Admin::class);
-$router->get("/", "AdminController:login", "painel");
-$router->get("/banana", "AdminController:login", "painel");
+$router->get("/", "AdminController:index", "painel");
 
 // Executa as rotas
 $router->dispatch();

@@ -48,6 +48,9 @@
                 password: password
             },
             success: function (res){
+                if(res == 'success'){
+                    return window.location.href = "admin";
+                }
                 console.log(res)
                 alert(res)
             }

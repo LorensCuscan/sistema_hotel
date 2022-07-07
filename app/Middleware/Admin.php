@@ -8,6 +8,9 @@ class Admin
 {
     public function handle(Router $router)
     {
-        dd($_SESSION);
+        if(!isset($_SESSION['name'])){
+            return $router->redirect('login');
+        }
+        return true;
     }
 }

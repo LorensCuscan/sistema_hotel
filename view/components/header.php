@@ -16,7 +16,7 @@
 <body style="background-color: #dadada;">
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
     <div class="container-fluid">
-      <a class="navbar-brand fst-italic" href="#"><i>Atrium</i><b>Hotel</b></a>
+      <a class="navbar-brand fst-italic" href="/"><i>Atrium</i><b>Hotel</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -40,7 +40,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fst-italic" href="login">login</a>
+              <a class="nav-link active fst-italic" href="admin">Administrativo</a>
             </li>
         </ul>
       </div>
