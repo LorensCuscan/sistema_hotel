@@ -1,0 +1,5 @@
+RewriteEngine On
+
+RewriteRule ^listing-([a-z0-9\-]+)-([0-9\-]+).html$ index.php?page=details&id=$2 [L]
+
+RewriteRule ^page-([^/\.]+).html$ index.php?page=$1 [L]

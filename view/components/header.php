@@ -26,7 +26,7 @@
               <a class="nav-link active fst-italic" aria-current="page" href="/sistema_hotel/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fst-italic" aria-current="page" href="/sistema_hotel/">Quartos</a>
+              <a class="nav-link active fst-italic" id="reserva" aria-current="page" href="/reserva">Reserva</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link active dropdown-toggle fst-italic" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
