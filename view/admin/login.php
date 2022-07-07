@@ -48,6 +48,7 @@
                 password: password
             },
             success: function (res){
+                console.log(res)
                 alert(res)
             }
         })
