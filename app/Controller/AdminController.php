@@ -6,6 +6,12 @@ class AdminController extends Controller
 {
     public function index()
     {
-        echo 'succss';
+        return view('admin/index');
+    }
+
+    public function login()
+    {
+        echo 'teste';
+        return view('admin/login');
     }
 }

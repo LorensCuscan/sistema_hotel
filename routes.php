@@ -9,9 +9,12 @@ $router->namespace("App\Controller");
 // Arquivo de rotas
 $router->group(null);
 $router->get("/", "HomeController:index", "index");
-$router->get("/login", "AdminController:index", "login");
+
+// rota de login
+$router->get("/login", "HomeController:login", "login");
 $router->post("/login", "LoginController:login");
 
+$router->get("/logout", "LoginController:logout", "logout");
 
 // Grupo de rotas /admin
 $router->group("/admin", \App\Middleware\Admin::class);

@@ -3,7 +3,7 @@
 namespace App\Controller;
 
 use App\Model\User;
-use Illuminate\Support\Facades\Route;
+use CoffeeCode\Router\Router;
 
 class LoginController extends Controller
 {
@@ -49,9 +49,10 @@ class LoginController extends Controller
         exit;
     }
 
+    // funcao para fazer logout
     public function logout()
     {
         session_destroy();
-        return Route::redirect('/');
+        return $this->router->redirect('login');
     }
 }
