@@ -57,18 +57,6 @@
         }
         )
     })
-
-    $('#reserva').on('click', function()
-        success: function (res){
-                if(res == 'success'){
-                    return window.location.href = "reserva";
-                    console.log(res)
-                    alert(res)
-                }
-                
-    }
-)
-
 </script>
 
 <?= view('components/footer'); ?>

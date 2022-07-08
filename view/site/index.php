@@ -94,7 +94,7 @@
 <br>
 <br>
 
-<div class="container w-50">
+<div class="container w-100 w-md-50">
   <h2 class="text-center">Entre em contato:</h2>
   <div class="mb-3">
     <label for="exampleFormControlInput1" class="form-label">Insira seu nome</label>
