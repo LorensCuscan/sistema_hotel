@@ -6,7 +6,8 @@ class AdminController extends Controller
 {
     public function index()
     {
-        return view('admin/index');
+        $rooms = $this->router->route("painel.rooms");
+        return view('admin/index', compact("rooms"));
     }
     
     public function listRooms()
