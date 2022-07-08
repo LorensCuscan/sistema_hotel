@@ -18,6 +18,7 @@ $router->get("/logout", "LoginController:logout", "logout");
 // Grupo de rotas /admin
 $router->group("/admin", \App\Middleware\Admin::class);
 $router->get("/", "AdminController:index", "painel");
+$router->get("/rooms", "AdminController:listRooms");
 
 // Executa as rotas
 $router->dispatch();

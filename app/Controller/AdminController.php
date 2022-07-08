@@ -8,4 +8,9 @@ class AdminController extends Controller
     {
         return view('admin/index');
     }
+    
+    public function listRooms()
+    {
+        return view('admin/rooms');
+    }
 }
