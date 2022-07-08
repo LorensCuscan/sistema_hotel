@@ -20,6 +20,9 @@ $router->group("/admin", \App\Middleware\Admin::class);
 $router->get("/", "AdminController:index", "painel");
 $router->get("/rooms", "AdminController:listRooms", "painel.rooms");
 
+// USA ESSA ROTA PRA CRIAR A PAGINA DE CADASTRO DOS QUARTO
+$router->get("/rooms/create", "AdminController:listRooms", "painel.rooms");
+
 // Executa as rotas
 $router->dispatch();
 
