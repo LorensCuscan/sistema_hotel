@@ -23,7 +23,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active fst-italic" aria-current="page" href="/sistema_hotel/">Home</a>
+              <a class="nav-link active fst-italic" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active fst-italic" id="reserva" aria-current="page" href="/reserva">Reserva</a>

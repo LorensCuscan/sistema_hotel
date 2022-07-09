@@ -166,5 +166,5 @@
     <p class="lead my-3">Localização.</p>
   </div>
 </div>
-            
+    
 <?= view('components/footer'); ?>
