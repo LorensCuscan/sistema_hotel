@@ -11,3 +11,15 @@ const DB_DBNAME = "hotel";
 const DB_USER   = "root";
 const DB_PASS   = "";
 
+/*
+
+<VirtualHost *>
+    ServerAdmin atrium.local
+    DocumentRoot "C:/xampp/htdocs/sistema_hotel/public"
+    ServerName atrium.com
+    ##ServerAlias www.dummy-host.example.com
+    ##ErrorLog "logs/dummy-host.example.com-error.log"
+    ##CustomLog "logs/dummy-host.example.com-access.log" common
+</VirtualHost>
+
+*/
