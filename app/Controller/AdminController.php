@@ -9,58 +9,39 @@ class AdminController extends Controller
         $rooms = $this->router->route("painel.rooms");
         return view('admin/rooms', compact("rooms"));
     }
-}
 
-namespace view\admin\rooms;
-class RegisterController extends Controller
-{
-    public function Cadastro()
+    public function Cadastrar()
     {
-        // Atribui os valores de Id, name, price, class
-        $id = $_POST["id"];
-        $name = $_POST["name"];
-        $price = $_POST["price"];
-        $class = $__POST["class"];
-       
-        // Caso passe por todas as verificações, atribuímos
-        // os dados do usuário na superglobal $_session
-        $_SESSION['id']  = $user['id'];
-        $_SESSION['name'] = $user['name'];
-        $_SESSION['price'] = $user['price'];
-        $_SESSION['class']    = session_id();
-
-        // retorna uma string success para o ajax
-        echo json_encode("success");
-        return view("view/admin/rooms");
-        exit;
+        $cadastrar = $this->router->route("rooms/create");
+        return view('admin/rooms/create', compact("rooms/create"));
     }
 }
-namespace App\Controller;
+?>
 
-use view\admin\rooms;
-use CoffeeCode\Router\Router;
 
-class RegisterController extends Controller
-{
-    public function Cadastro()
-    {
-        // Atribui os valores de Id, name, price, class
-        $id = $_POST["id"];
-        $name = $_POST["name"];
-        $price = $_POST["price"];
-        $class = $__POST["class"];
-       
-        // Caso passe por todas as verificações, atribuímos
-        // os dados do usuário na superglobal $_session
-        $_SESSION['id']  = $user['id'];
-        $_SESSION['name'] = $user['name'];
-        $_SESSION['price'] = $user['price'];
-        $_SESSION['class']    = session_id();
-
-        // retorna uma string success para o ajax
-        echo json_encode("success");
-        return view("view/admin/rooms");
-        exit;
-    }
-}
-
+<script>
+    include __FILE__ . "admin/rooms"
+    $('#cadastrar').on('click', function(){
+        var name = $('#name').val()
+        var price = $('#price').val()
+        var class = $('#class').val()
+        $.ajax({
+            url: "cadastro", 
+            dataType: "json",
+            type: "POST",
+            data: {
+                name: nome
+                price: preço
+                class: classe
+            },
+            success: function (res){
+                if(res == 'success'){
+                    return window.location.href = "admin/rooms";
+                }
+                console.log(res)
+                alert(res)
+            }
+        }
+        )
+    })
+</script>

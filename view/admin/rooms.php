@@ -2,9 +2,7 @@
 
 
 
-
-
-<form method="post" action="" method="post">
+<form action="Cadastrar" method="post">
     <form>
         <div class="form-group">
             <label>Nome do quarto</label>
@@ -21,42 +19,13 @@
     <input type="number" min="1" max="5" value="1" class="form control" name="classe">
 </div>
 
-
-<script>
-    $('#cadastro').on('click', function(){
-        var id = $('#id').val()
-        var name = $('#name').val()
-        var price = $( 'price').val()
-        var class = $('class').val()
-        $.ajax({
-            url: "rooms", 
-            dataType: "json",
-            type: "POST",
-            data: {
-                id: id
-                name: name
-                price: price
-                class: classe
-            },
-            success: function (res){
-                if(res == 'success'){
-                    return window.location.href = "rooms";
-                    <?php  exibirAlerta("success"); ?>
-                }
-                console.log(res)
-                alert(res)
-            }
-        }
-        )
-    })
-    <section>
-    <div>
-        <button type="submit" class="btn btn-success"> cadastrar quarto </button>
-</section> 
-</script>
+<section>
+    <a href="rooms/create.php">
+        <button id="cadastrar" class="btn btn-success"> Cadastrar </button>
+    </a>
+</section>
 
 
-</form>
 
 
 <?= view('components/footer'); ?>
