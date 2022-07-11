@@ -13,7 +13,7 @@ class RoomMigration extends RunMigration
         { 
             $table->increments('id'); 
             $table->string('name', 100);
-            $table->float('price', 4, 2);
+            $table->float('price', 6, 2);
             $table->tinyInteger('class');
             $table->timestamps(); 
         });
