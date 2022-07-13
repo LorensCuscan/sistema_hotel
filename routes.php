@@ -19,6 +19,7 @@ $router->get("/logout", "LoginController:logout", "logout");
 $router->group("/admin", \App\Middleware\Admin::class);
 $router->get("/", "AdminController:index", "painel");
 $router->get("/rooms", "AdminController:listRooms", "painel.rooms");
+$router->get("/QuartosAmostra", "adminController:AmostraQuartos");
 
 
 $router->group("/admin/rooms", \App\Middleware\Admin::class);
