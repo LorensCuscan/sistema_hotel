@@ -8,7 +8,8 @@ class RoomController extends Controller
 {
     public function index()
     {
-        return view("admin/rooms/index");
+        $rooms = Room::all();
+        return view("admin/rooms/index", compact("rooms"));
     }
 
     public function create()
