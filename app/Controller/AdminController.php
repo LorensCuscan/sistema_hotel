@@ -15,11 +15,6 @@ class AdminController extends Controller
         $cadastrar = $this->router->route("rooms/create");
         return view('admin/rooms/create', compact("rooms/create"));
     }
-    public function reserva()
-    {
-        $quartosamostra = $this->router->route("admin/QuartosAmostra");
-        return view ('admin/QuartosAmostra', compact("QuartosAmostra"));
-    }
 }
 
 
