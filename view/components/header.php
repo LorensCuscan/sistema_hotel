@@ -43,7 +43,7 @@
             <li class="nav-item">
               <a class="nav-link active fst-italic" href="
                 <?= isset($_SESSION['name']) ? $router->route('logout') : $router->route('login') ?>
-                "><?= isset($_SESSION['name']) ? 'Logout' : 'Login' ?></a>
+                "> <?= isset($_SESSION['name']) ? 'Logout' : 'Login' ?> </a>
             </li>
         </ul>
       </div>
