@@ -18,9 +18,6 @@ $router->get("/logout", "LoginController:logout", "logout");
 // Grupo de rotas /admin
 $router->group("/admin", \App\Middleware\Admin::class);
 $router->get("/", "AdminController:index", "painel");
-$router->get("/rooms", "AdminController:listRooms", "painel.rooms");
-$router->get("/QuartosAmostra", "adminController:QuartosAmostra");
-
 
 $router->group("/admin/rooms", \App\Middleware\Admin::class);
 $router->get("/", "RoomController:index");
