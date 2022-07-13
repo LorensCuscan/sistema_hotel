@@ -1,6 +1,5 @@
 <?= view('components/header'); ?>
 
-
 <div class="form-group">
     <label>Nome do quarto</label>
     <input id="name" type="text" class="form control" name="nome">
@@ -19,7 +18,6 @@
 <div class="form-group">
     <button id="cadastrar" class="btn btn-success"> Cadastrar </button>
 </div>
-
 
 <script>
     $('#cadastrar').on('click', function(){
@@ -43,8 +41,5 @@
         )
     })
 </script>
-
-
-
 
 <?= view('components/footer'); ?>

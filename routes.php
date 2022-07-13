@@ -27,10 +27,6 @@ $router->get("/", "RoomController:index");
 $router->get("/create", "RoomController:create");
 $router->post("/store", "RoomController:store");
 
-
-
-
-
 // Executa as rotas
 $router->dispatch();
 
