@@ -24,7 +24,7 @@
               <a class="nav-link active fst-italic" aria-current="page" href="/">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active fst-italic" id="reserva" aria-current="page" href="admin/QuartosAmostra/index">Reserva</a>
+              <a class="nav-link active fst-italic" id="reserva" aria-current="page" href="/QuartosAmostra">Reserva</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link active dropdown-toggle fst-italic" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
