@@ -19,27 +19,6 @@
     <button id="cadastrar" class="btn btn-success"> Cadastrar </button>
 </div>
 
-<script>
-    $('#cadastrar').on('click', function(){
-        var name = $('#name').val()
-        var price = $('#price').val()
-        var classe = $('#classe').val()
-        $.ajax({
-            url: "/admin/rooms/store", 
-            dataType: "json",
-            type: "POST",
-            data: {
-                name: name,
-                price: price,
-                classe: classe
-            },
-            success: function (res){
-                console.log(res)
-                alert(res)
-            }
-        }
-        )
-    })
-</script>
+
 
 <?= view('components/footer'); ?>

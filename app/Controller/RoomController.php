@@ -17,13 +17,12 @@ class RoomController extends Controller
         return view("admin/rooms/create");
     }
 
-    public function edit()
+    public function listar()
     {
-        
+
     }
-
     
-
+    
     public function store()
     {
 
