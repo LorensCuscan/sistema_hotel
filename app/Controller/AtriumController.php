@@ -37,7 +37,7 @@ class AtriumController
             if(strlen($fileFound) > 3) {
                 $className = str_replace('.php', '', $fileFound);
                 $result = "Database\\Migrations\\".$className;
-                new $result($capsule);
+                (new $result())->up($capsule);
             }
         }
         echo "Tabelas criadas com sucesso\n";

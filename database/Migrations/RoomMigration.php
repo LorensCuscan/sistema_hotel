@@ -5,7 +5,7 @@ namespace Database\Migrations;
 use Illuminate\Database\Migrations\Migration;
 class RoomMigration extends RunMigration
 {
-    public function __construct($capsule)
+    public function up($capsule)
     {
         $capsule::schema()->dropIfExists('rooms');
 
