@@ -3,7 +3,7 @@
 namespace Database\Migrations;
 
 use Illuminate\Database\Migrations\Migration;
-class UserMigration extends RunMigration
+class UserMigration extends Migration
 {
     public function up($capsule)
     {

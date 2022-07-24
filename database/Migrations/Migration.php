@@ -2,9 +2,9 @@
 
 namespace Database\Migrations;
 
-use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Migrations\Migration as AbstractMigration;
 
-class RunMigration extends Migration
+class Migration extends AbstractMigration
 {
     public function up($capsule)
     {
