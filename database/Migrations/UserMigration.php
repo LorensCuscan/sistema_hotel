@@ -15,7 +15,7 @@ class UserMigration extends Migration
                 $table->string('email')->unique(); 
                 $table->string('password', 100);
                 $table->boolean('admin');
-                $table->timestamps(); 
+                $table->timestamps();
             });
         }
     }

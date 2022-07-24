@@ -17,7 +17,6 @@ class AtriumController
     {
         $this->argv = $argv;
         $this->functionName = lcfirst(str_replace('-', '', ucwords($argv[1], '-')));
-
         if(method_exists(__CLASS__, $this->functionName)){
             return call_user_func(__CLASS__ . "::" . $this->functionName);
         };
