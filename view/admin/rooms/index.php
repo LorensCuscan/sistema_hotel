@@ -1,13 +1,41 @@
-<?= view('components/header'); ?>
+<?= view('components/header'); 
+
+include_once('RoomMigration');
+
+?>
+
+
 
 
 <!-- Conteudo do site -->
 
-listagem dos quartos
+
+
+<p class="fw-bold">Cadastro e Reserva de sites</p>
 
 <section>
-    <a href="rooms/create">Adicionar Quarto</a>
+    <a class="btn btn-success" href="rooms/create">Adicionar Quarto</a>
 </section>
+
+</br>
+
+
+
+<p class="fw-bold">Listagem de quartos cadastrados</p>
+
+
+
+<?php
+
+
+$sql = ("SELECT * rooms ORDER BY class");
+
+$resultado = $show->query($sql);
+
+print_r($resultado);
+
+
+?>
 
 
 <?= view('components/footer'); ?>
